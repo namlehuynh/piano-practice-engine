@@ -1,0 +1,30 @@
+# Development notes — reference material, not part of the release
+notes/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Generated output
+*.html
+*.json
+!requirements*.json
+plan.json
+progress.json
+*.musicxml
+*.mid
+*.mscz
+# music21 local configuration
+.music21rc
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
